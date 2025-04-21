@@ -1,5 +1,3 @@
-import json
-
 def main():
   inventory = {
     "all": {
@@ -9,7 +7,7 @@ def main():
       }
     }
   }
-  print(json.dumps(inventory))
+  print(str(inventory))
 
 if __name__ == "__main__":
   main()
